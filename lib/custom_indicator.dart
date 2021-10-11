@@ -67,7 +67,7 @@ class _CustomIndicatorState extends State<CustomIndicator> {
           alignment: AlignmentDirectional.topStart,
           children: [
             Container(
-              margin: EdgeInsets.only(bottom: 35),
+              margin: const EdgeInsets.only(bottom: 15),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 mainAxisAlignment: MainAxisAlignment.center,
